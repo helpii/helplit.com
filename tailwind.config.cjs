@@ -7,11 +7,9 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      sans: ["Nunito", "sans-serif"],
-      mono: ["Inconsolata", "monospace"],
-      //story: ["Prata", "serif"],
-      story: ["Abhaya Libre", "serif"],
-      hidden: ["Konkhmer Sleokchher", "cursive"],
+      TITULO: ["Abhaya Libre", "serif"], //titulo
+      TEXTO: ["Nunito", "sans-serif"], //texto
+      DESTAQUE: ["Space Mono", "monospace"], //destaque
     },
     extend: {
       colors: {

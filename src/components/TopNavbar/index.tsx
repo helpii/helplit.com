@@ -1,7 +1,7 @@
 export function TopNavbar() {
   return (
     <nav className="bg-white border-gray-200 w-[100%]">
-      <div className="flex flex-row items-center justify-between p-2">
+      <div className="flex flex-row items-center justify-between p-2 font-TEXTO">
         <a href="https://helplit.com.br/" className="flex items-center">
           <img src="hlt-navbar.svg" className="h-10 mr-3" alt="Helplit Logo" />
         </a>
