@@ -21,7 +21,7 @@ export function Section({ type, children }: Props) {
       );
     case "instructions":
       return (
-        <div className="bg-gradient-to-r from-[#f4df64] to-[#edd757] border-b-8 border-t-8 border-[#f4e588] rounded-xl  flex flex-col items-center justify-between my-12 h-[600px] w-[100%]">
+        <div className="bg-gradient-to-r from-[#f4df64] to-[#edd757] border-b-[12px] border-t-[12px] border-[#f4e588] rounded-2xl  flex flex-col items-center justify-between pb-12 h-auto w-[100%]">
           {children}
         </div>
       );
