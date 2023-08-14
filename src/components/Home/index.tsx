@@ -46,29 +46,39 @@ export function Home() {
       <Section type="instructions">
         <>
           <InstructionsStep type="notice">
-            <div className="flex flex-row items-center bg-slate-500 w-full justify-center">
-              <div className="bg-helpii_talk w-[200px] h-[200px] bg-cover"></div>
-              <p
-                className="bg-NUDE border-b-4   border-CORAL text-COAL font-TITULO rounded-xl p-4 items-center justify-center mr-4
+            <>
+              <div className="flex flex-row items-center w-full justify-center -z-0">
+                <img
+                  className="absolute opacity-80 -z-10 
+                left-[5%] rotate-[70deg]
+                sm:left-[30%]"
+                  src="/instructions/doodle.gif"
+                  alt=""
+                />
+                <div className="bg-helpii_talk w-[200px] h-[200px] bg-cover"></div>
+                <p
+                  className="bg-NUDE border-b-4   border-CORAL text-COAL font-TITULO rounded-xl p-4 items-center justify-center mr-4
               text-xl
               sm:text-2xl"
-              >
-                Oi, eu sou a <strong>Helpii</strong>! Olha só como a Helplit
-                funciona...
-              </p>
-            </div>
+                >
+                  Oi, eu sou a <strong>Helpii</strong>! Na Helplit a gente faz
+                  assim:
+                </p>
+              </div>
+            </>
           </InstructionsStep>
 
           <InstructionsStep type="right">
             <>
               <img src="/instructions/step1.png" alt="" width="333.33" />
               <div className="flex flex-col px-16">
-                <p className="font-TITULO text-4xl text-OCEAN">
+                <p className="font-TITULO  text-OCEAN leading-none text-4xl">
                   Você começa <strong>pensando</strong>...
                 </p>
-                <p className="text-black-400 font-TEXTO font-extralight text-lg">
+                <p className="mt-2 leading-snug text-black-400 font-TEXTO font-extralight text-lg">
                   “Como posso ensinar esse conteúdo de uma forma que seja mais
-                  divertida, interativa e as crianças aprendam mais fácil?"
+                  divertida, interativa e facilitada para o aprendizado das
+                  crianças?"
                 </p>
               </div>
             </>
@@ -78,10 +88,10 @@ export function Home() {
             <>
               <img src="/instructions/step2.png" alt="" width="358.66" />
               <div className="flex flex-col px-16">
-                <p className="font-TITULO text-4xl text-OCEAN">
+                <p className="font-TITULO text-4xl text-OCEAN leading-none">
                   Você entra na <strong>Helplit</strong>...
                 </p>
-                <p className="text-black-400 font-TEXTO font-extralight text-lg">
+                <p className="mt-2 leading-snug text-black-400 font-TEXTO font-extralight text-lg">
                   E se inspira nas diversas ideias de aulas produzidas por
                   professores profissionais, com foco em desenvolver as
                   habilidades propostas pela BNCC.
@@ -94,10 +104,10 @@ export function Home() {
             <>
               <img src="/instructions/step3.png" alt="" width="333.33" />
               <div className="flex flex-col px-16">
-                <p className="font-TITULO text-4xl text-OCEAN">
+                <p className="font-TITULO text-4xl text-OCEAN leading-none">
                   Você sai com uma <strong>aula pronta</strong>!
                 </p>
-                <p className="text-black-400 font-TEXTO font-extralight text-lg">
+                <p className="mt-2 leading-snug text-black-400 font-TEXTO font-extralight text-lg">
                   Adaptando a lit para o conteúdo que você quer ensinar, você
                   sai com uma aula interativa, divertida e diferente em muito
                   menos tempo.
