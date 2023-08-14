@@ -14,21 +14,26 @@ export function Home() {
         <>
           <div
             className="flex flex-col text-COAL 
-            gap-4 
-            md:gap-8 md:mr-12"
+            gap-2
+            sm:mr-12"
           >
             <p
               className="font-TITULO font-extralight 
-              text-2xl text-center 
-              md:text-6xl md:text-start"
+              text-3xl text-center
+              sm:text-6xl md:text-start"
             >
               Planeje aulas <span className="font-bold">divertidas</span> e
               produtivas em <span className="font-bold">menos tempo</span>.
             </p>
+            <img
+              className="brightness-[400] md:opacity-0 mb-8"
+              src="/rabisco.png"
+              alt=""
+            />
             <p
               className="font-TEXTO text-xl font-extralight 
               text-justify mb-8
-              md:text-start md:mb-0"
+              sm:text-start md:mb-0"
             >
               Sabemos que <span className="font-normal">você já é expert</span>{" "}
               em preparar uma boa aula, por isso nossa missão é te entregar a{" "}
@@ -37,7 +42,7 @@ export function Home() {
               <span className="font-normal">o tempo que você leva hoje</span>.
             </p>
           </div>
-          <img className="md:py-8" src="profe.png" alt="" />
+          <img className="sm:py-8" src="profe.png" alt="" />
         </>
       </Section>
       <Section type="carousel">
@@ -55,7 +60,7 @@ export function Home() {
                   className="absolute opacity-80 -z-10 
                 left-[2%] rotate-[70deg]
                 sm:left-[30%]"
-                  src="/instructions/doodle.gif"
+                  src="/fun/doodle.gif"
                   alt=""
                 />
                 <div
@@ -98,11 +103,7 @@ export function Home() {
           <InstructionsStep type="left">
             <>
               <img src="/instructions/step2.png" alt="" width="358.66" />
-              <div
-                className="flex flex-col px-16
-              text-left
-              sm:text-right"
-              >
+              <div className="flex flex-col px-16 text-left">
                 <p className="font-TITULO text-4xl text-OCEAN leading-none">
                   Você entra na <strong>Helplit</strong>...
                 </p>

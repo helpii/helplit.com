@@ -30,6 +30,7 @@ module.exports = {
         helplit: 'url("/helplit.png")',
         profe: 'url("/profe.png")',
         dust: 'url("/aquarela.jpg")',
+        marker_1: 'url("/fun/marker-1.png")',
         helpii_talk: 'url("/helpii-talk.GIF")',
         HELP: "linear-gradient(180deg, #fbc366, #f27d54)",
         ALUD: "linear-gradient(180deg, #d240ef, #8a51cc)",
