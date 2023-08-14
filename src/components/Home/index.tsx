@@ -58,11 +58,11 @@ export function Home() {
                 <div className="bg-helpii_talk w-[200px] h-[200px] bg-cover"></div>
                 <p
                   className="bg-NUDE border-b-4  border-CORAL text-COAL font-TITULO rounded-xl p-4 items-center mr-4
-              text-xl text-center px-8
+              text-xl text-center px-4
               sm:text-2xl"
                 >
-                  Oi, eu sou a <strong>Helpii</strong>!<br />O jeito Helplit é
-                  assim:
+                  Oi, eu sou a <strong>Helpii</strong>!<br />E assim é o jeito
+                  Helplit:
                 </p>
               </div>
             </>
