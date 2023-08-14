@@ -47,7 +47,10 @@ export function Home() {
         <>
           <InstructionsStep type="notice">
             <>
-              <div className="flex flex-row items-center w-full justify-center -z-0">
+              <div
+                className="flex flex-row items-center w-full justify-start -z-0
+              sm:justify-center"
+              >
                 <img
                   className="absolute opacity-80 -z-10 
                 left-[2%] rotate-[70deg]
@@ -55,14 +58,18 @@ export function Home() {
                   src="/instructions/doodle.gif"
                   alt=""
                 />
-                <div className="bg-helpii_talk w-[200px] h-[200px] bg-cover"></div>
+                <div
+                  className="bg-helpii_talk  bg-cover
+                w-[120px] h-[200px] 
+                sm:w-[200px] sm:h-[200px]"
+                ></div>
                 <p
-                  className="bg-NUDE border-b-4  border-CORAL text-COAL font-TITULO rounded-xl p-4 items-center mr-4
+                  className="bg-NUDE border-b-4 border-CORAL text-COAL font-TITULO rounded-xl p-4 items-center mr-4
               text-xl text-center px-4
               sm:text-2xl"
                 >
-                  Oi, eu sou a <strong>Helpii</strong>!<br />E assim é o jeito
-                  Helplit:
+                  Oi, eu sou a <strong>Helpii</strong>!<br />
+                  Esse é o jeito Helplit:
                 </p>
               </div>
             </>
