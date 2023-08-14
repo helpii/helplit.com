@@ -60,7 +60,7 @@ export function Home() {
                 />
                 <div
                   className="bg-helpii_talk  bg-cover
-                w-[120px] h-[200px] 
+                w-[140px] h-[200px] 
                 sm:w-[200px] sm:h-[200px]"
                 ></div>
                 <p
@@ -78,11 +78,15 @@ export function Home() {
           <InstructionsStep type="right">
             <>
               <img src="/instructions/step1.png" alt="" width="333.33" />
-              <div className="flex flex-col px-16">
+              <div
+                className="flex flex-col px-16
+              text-right 
+              sm:text-left"
+              >
                 <p className="font-TITULO  text-OCEAN leading-none text-4xl">
                   Você começa <strong>pensando</strong>...
                 </p>
-                <p className="mt-2 leading-snug text-black-400 font-TEXTO font-extralight text-lg">
+                <p className="mt-4 leading-snug text-black-400 font-TEXTO font-extralight text-lg">
                   “Como posso ensinar esse conteúdo de uma forma que seja mais
                   divertida, interativa e facilitada para o aprendizado das
                   crianças?"
@@ -94,11 +98,15 @@ export function Home() {
           <InstructionsStep type="left">
             <>
               <img src="/instructions/step2.png" alt="" width="358.66" />
-              <div className="flex flex-col px-16">
+              <div
+                className="flex flex-col px-16
+              text-left
+              sm:text-right"
+              >
                 <p className="font-TITULO text-4xl text-OCEAN leading-none">
                   Você entra na <strong>Helplit</strong>...
                 </p>
-                <p className="mt-2 leading-snug text-black-400 font-TEXTO font-extralight text-lg">
+                <p className="mt-4 leading-snug text-black-400 font-TEXTO font-extralight text-lg">
                   E se inspira nas diversas ideias de aulas produzidas por
                   professores profissionais, com foco em desenvolver as
                   habilidades propostas pela BNCC.
@@ -110,11 +118,15 @@ export function Home() {
           <InstructionsStep type="right">
             <>
               <img src="/instructions/step3.png" alt="" width="333.33" />
-              <div className="flex flex-col px-16">
+              <div
+                className="flex flex-col px-16 
+              text-right 
+              sm:text-left"
+              >
                 <p className="font-TITULO text-4xl text-OCEAN leading-none">
                   Você sai com uma <strong>aula pronta</strong>!
                 </p>
-                <p className="mt-2 leading-snug text-black-400 font-TEXTO font-extralight text-lg">
+                <p className="mt-4 leading-snug text-black-400 font-TEXTO font-extralight text-lg">
                   Adaptando a lit para o conteúdo que você quer ensinar, você
                   sai com uma aula interativa, divertida e diferente em muito
                   menos tempo.
