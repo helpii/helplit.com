@@ -7,19 +7,19 @@ export function InstructionsStep({ type, children }: Props) {
   switch (type) {
     case "left":
       return (
-        <div className="flex flex-row items-center w-full justify-between bg-[#f4e588] mt-8">
+        <div className="flex flex-row items-center w-full justify-between  mt-8">
           {children}
         </div>
       );
     case "right":
       return (
-        <div className="flex flex-row items-center w-full justify-between bg-[#f4e588] mt-8">
+        <div className="flex flex-row items-center w-full justify-between mt-8">
           {children}
         </div>
       );
     case "notice":
       return (
-        <div className="flex flex-row items-center w-full justify-around bg-[#f4e588]">
+        <div className="flex flex-row items-center w-full justify-around ">
           {children}
         </div>
       );
