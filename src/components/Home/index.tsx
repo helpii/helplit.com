@@ -19,7 +19,7 @@ export function Home() {
           >
             <p
               className="font-TITULO font-extralight 
-              text-3xl text-center
+              text-2xl text-center
               sm:text-6xl md:text-start"
             >
               Planeje aulas <span className="font-bold">divertidas</span> e
