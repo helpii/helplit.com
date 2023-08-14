@@ -12,12 +12,24 @@ export function Home() {
       <TopNavbar />
       <Section type="banner">
         <>
-          <div className="flex flex-col gap-8 mr-12 text-COAL">
-            <p className="font-TITULO text-6xl font-extralight">
+          <div
+            className="flex flex-col text-COAL 
+            gap-4 
+            md:gap-8 md:mr-12"
+          >
+            <p
+              className="font-TITULO font-extralight 
+              text-2xl text-center 
+              md:text-6xl md:text-start"
+            >
               Planeje aulas <span className="font-bold">divertidas</span> e
               produtivas em <span className="font-bold">menos tempo</span>.
             </p>
-            <p className="font-TEXTO text-xl font-extralight">
+            <p
+              className="font-TEXTO text-xl font-extralight 
+              text-justify mb-8
+              md:text-start md:mb-0"
+            >
               Sabemos que <span className="font-normal">você já é expert</span>{" "}
               em preparar uma boa aula, por isso nossa missão é te entregar a{" "}
               <span className="font-normal">inspiração</span> que você já busca
@@ -25,13 +37,7 @@ export function Home() {
               <span className="font-normal">o tempo que você leva hoje</span>.
             </p>
           </div>
-          <img
-            className="my-16"
-            src="profe.png"
-            alt=""
-            width="496"
-            height="400"
-          />
+          <img className="md:py-8" src="profe.png" alt="" />
         </>
       </Section>
       <Section type="carousel">

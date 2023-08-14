@@ -9,7 +9,7 @@ export function Section({ type, children }: Props) {
   switch (type) {
     case "banner":
       return (
-        <div className="bg-gradient-to-r from-CORAL to-[#f38c64] flex flex-row items-center justify-between w-[100%] px-16 overflow-hidden">
+        <div className="bg-gradient-to-r py-8 from-CORAL to-[#f38c64] flex flex-col sm:flex-row items-center justify-between w-[100%] px-16 overflow-hidden">
           {children}
         </div>
       );
