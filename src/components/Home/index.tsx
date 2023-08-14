@@ -8,7 +8,7 @@ import {
 
 export function Home() {
   return (
-    <div className="bg-NUDE">
+    <div className="bg-NUDE overflow-hidden">
       <TopNavbar />
       <Section type="banner">
         <>
@@ -46,12 +46,11 @@ export function Home() {
       <Section type="instructions">
         <>
           <InstructionsStep type="notice">
-            <div className="flex flex-row items-center">
+            <div className="flex flex-row items-center bg-slate-500 w-full justify-center">
               <div className="bg-helpii_talk w-[200px] h-[200px] bg-cover"></div>
-              <p className="bg-NUDE border-b-4  text-2xl border-CORAL text-COAL font-TITULO rounded-xl p-4 items-center justify-center">
-                Olá, eu sou a <strong>Helpii</strong>, e vou te mostrar como é
-                fácil <br />
-                planejar uma aula usando a Helplit como apoio.
+              <p className="bg-NUDE border-b-4  text-2xl border-CORAL text-COAL font-TITULO rounded-xl p-4 items-center justify-center mr-4">
+                Oi, eu sou a <strong>Helpii</strong>! Olha só como a Helplit
+                funciona...
               </p>
             </div>
           </InstructionsStep>
@@ -73,6 +72,7 @@ export function Home() {
 
           <InstructionsStep type="left">
             <>
+              <img src="/instructions/step2.png" alt="" width="358.66" />
               <div className="flex flex-col px-16">
                 <p className="font-TITULO text-4xl text-OCEAN">
                   Você entra na <strong>Helplit</strong>...
@@ -83,7 +83,6 @@ export function Home() {
                   habilidades propostas pela BNCC.
                 </p>
               </div>
-              <img src="/instructions/step2.png" alt="" width="358.66" />
             </>
           </InstructionsStep>
 
