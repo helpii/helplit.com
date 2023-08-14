@@ -50,18 +50,18 @@ export function Home() {
               <div className="flex flex-row items-center w-full justify-center -z-0">
                 <img
                   className="absolute opacity-80 -z-10 
-                left-[5%] rotate-[70deg]
+                left-[2%] rotate-[70deg]
                 sm:left-[30%]"
                   src="/instructions/doodle.gif"
                   alt=""
                 />
                 <div className="bg-helpii_talk w-[200px] h-[200px] bg-cover"></div>
                 <p
-                  className="bg-NUDE border-b-4   border-CORAL text-COAL font-TITULO rounded-xl p-4 items-center justify-center mr-4
-              text-xl
+                  className="bg-NUDE border-b-4  border-CORAL text-COAL font-TITULO rounded-xl p-4 items-center mr-4
+              text-xl text-center px-8
               sm:text-2xl"
                 >
-                  Oi, eu sou a <strong>Helpii</strong>! Na Helplit a gente faz
+                  Oi, eu sou a <strong>Helpii</strong>!<br />O jeito Helplit é
                   assim:
                 </p>
               </div>
