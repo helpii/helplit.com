@@ -48,7 +48,11 @@ export function Home() {
           <InstructionsStep type="notice">
             <div className="flex flex-row items-center bg-slate-500 w-full justify-center">
               <div className="bg-helpii_talk w-[200px] h-[200px] bg-cover"></div>
-              <p className="bg-NUDE border-b-4  text-2xl border-CORAL text-COAL font-TITULO rounded-xl p-4 items-center justify-center mr-4">
+              <p
+                className="bg-NUDE border-b-4   border-CORAL text-COAL font-TITULO rounded-xl p-4 items-center justify-center mr-4
+              text-xl
+              sm:text-2xl"
+              >
                 Oi, eu sou a <strong>Helpii</strong>! Olha só como a Helplit
                 funciona...
               </p>
