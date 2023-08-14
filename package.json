@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "classnames": "^2.3.2",
+    "embla-carousel-react": "^8.0.0-rc11",
     "flowbite": "^1.8.1",
     "flowbite-react": "^0.5.0",
     "phosphor-react": "^1.4.1",
