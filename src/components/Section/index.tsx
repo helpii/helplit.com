@@ -21,7 +21,7 @@ export function Section({ type, children }: Props) {
       );
     case "carousel":
       return (
-        <div className="py-16">
+        <div className="py-8">
           <LitCarousel loop>
             {images.map((src, i) => {
               return (

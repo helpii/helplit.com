@@ -1,7 +1,6 @@
 import { ArrowLeft, ArrowRight } from "phosphor-react";
 import useEmblaCarousel, { EmblaOptionsType } from "embla-carousel-react";
 import { PropsWithChildren, useState, useEffect } from "react";
-import shapeshifter from "classnames";
 
 // Define the props
 type CarouselProps = PropsWithChildren & EmblaOptionsType;
@@ -71,7 +70,7 @@ const CarouselControls = (props: ControlsProps) => {
             }
           }}
           disabled={!props.canScrollPrev}
-          className="bg-NUDE px-8 w-full"
+          className="bg-NUDE pr-8 w-full select-none"
         >
           <ArrowLeft
             className="float-right"
@@ -90,7 +89,7 @@ const CarouselControls = (props: ControlsProps) => {
             }
           }}
           disabled={!props.canScrollNext}
-          className="bg-NUDE px-8 w-full"
+          className="bg-NUDE pl-8 w-full select-none"
         >
           <ArrowRight size={36} color="#f27d54" weight="duotone" />
         </button>
