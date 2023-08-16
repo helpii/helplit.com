@@ -157,7 +157,7 @@ export function Home() {
               do que com as lits, se inspire vendo como outros professores
               adaptaram elas para o conteúdo que precisaram ensinar.
             </p>
-            <button className="bg-CORAL flex flex-row my-4 items-center justify-center text-base md:text-lg max-w-[500px] w-auto py-2 px-2 text-white gap-4 rounded-full border-2 border-RUST">
+            <button className="bg-CORAL flex flex-row my-4 items-center justify-center text-base md:text-lg w-full sm:max-w-[400px] py-2 px-2 text-white gap-4 rounded-full border-2 border-RUST">
               Junte-se a profes do Brasil todo{" "}
               <ArrowRight size={36} color="#fff" weight="fill" />
             </button>
