@@ -38,19 +38,19 @@ export function StagesSliders() {
       <div
         className="bg-white   
       w-full relative py-5 px-2 border-b-2 border-[#83aa79]
-      md:w-[55%] md:absolute md:mt-12 md:py-10 md:pl-[62px] md:pr-[48px] md:border-2 md:border-l-0 md:border-black md:rounded-tr-xl md:rounded-br-xl"
+      lg:w-[55%] lg:absolute lg:mt-12 lg:py-10 lg:pl-[62px] lg:pr-[48px] lg:border-2 lg:border-l-0 lg:border-black lg:rounded-tr-xl lg:rounded-br-xl"
       >
         <h1
           className="font-TITULO 
-        text-2xl mb-2
-        md:text-4xl md:mb-4"
+        text-2xl mb-2 text-center
+        md:text-4xl md:mb-4 md:text-left"
         >
           Usamos metodologia própria para categorizar as habilidades da BNCC.
         </h1>
         <p
           className="font-TEXTO  font-extralight 
-        texl-md mt-2
-        md:text-lg md:mt-4"
+        texl-md mt-2 text-center
+        md:text-lg md:mt-4 md:text-left"
         >
           Com ela você garante que vai encontrar somente as habilidades que
           fazem sentido para a sua aula.

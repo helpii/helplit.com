@@ -6,11 +6,13 @@ import {
   StagesSliders,
 } from "../../components";
 
+import { ArrowRight } from "phosphor-react";
+
 export function Home() {
   return (
     <div className="bg-NUDE overflow-hidden">
       <TopNavbar />
-      <Section type="banner">
+      <Section type="hero">
         <>
           <div
             className="flex flex-col text-COAL 
@@ -137,8 +139,81 @@ export function Home() {
           </InstructionsStep>
         </>
       </Section>
-      <Section type="default">
+      <Section type="stages">
         <StagesSliders />
+      </Section>
+      <Section type="default">
+        <div className="flex flex-col xl:flex-row">
+          <div className="lg:mt-20 flex flex-col px-16 gap-8">
+            <h1 className="font-TITULO text-3xl">
+              Mais do que um repositório de conteúdos{" "}
+              <span className="font-bold">para te ajudar</span>, faça parte de
+              uma comunidade de professores{" "}
+              <span className="font-bold">dispostos a inspirar</span>.
+            </h1>
+            <p className="font-extralight text-lg">
+              Queremos ser mais do que apenas um lugar para você usar de vez em
+              quando, queremos te ajudar a se conectar de diversas formas. Mais
+              do que com as lits, se inspire vendo como outros professores
+              adaptaram elas para o conteúdo que precisaram ensinar.
+            </p>
+            <button className="bg-CORAL flex flex-row my-4 items-center justify-center text-base md:text-lg max-w-[400px] w-auto py-2 text-white gap-4 rounded-full border-2 border-RUST">
+              Junte-se a profes do Brasil todo{" "}
+              <ArrowRight size={36} color="#fff" weight="fill" />
+            </button>
+          </div>
+          <img className="p-8 w-auto" src="/fun/blob.png" alt="" />
+        </div>
+      </Section>
+      <Section type="cta">
+        <div className="flex flex-col bg-ROXINHO p-16 rounded-xl justify-center items-center text-center gap-4 mx-16">
+          <h1 className="font-TITULO text-ROXAOZAO text-4xl">
+            A Helplit tem uma causa:
+          </h1>
+          <p className="font-TEXTO text-2xl font-extralight text-ROXAOZAO">
+            Transformar a sala de aula em um palco de aprendizado, uma parceria
+            entre professor e aluno.{" "}
+            <span className="font-bold">Junte-se a nós!</span>
+          </p>
+          <button className="px-4 bg-ROXO flex flex-row mt-4 items-center justify-center text-base md:text-lg max-w-[600px] w-auto py-2 text-white gap-4 rounded-full border-2 border-ROXAOZAO">
+            Comece transformando sua sala de aula!
+          </button>
+        </div>
+      </Section>
+      <Section type="footer">
+        <div className="flex flex-col md:flex-row gap-x-32 font-TEXTO text-lg justify-between">
+          <div className="flex flex-col mr-8 gap-6">
+            <img src="hlt_white.png" className="h-fit max-w-[200px]" alt="" />
+            <h1>Blog</h1>
+            <h1>Preços</h1>
+            <h1>Sobre nós</h1>
+            <h1>Como funciona</h1>
+          </div>
+          <div className="flex flex-col mr-16 mb-16 gap-6">
+            <img
+              src="hlt_white.png"
+              className="h-fit max-w-[200px] opacity-0"
+              alt=""
+            />
+            <h1 className="flex flex-row gap-2">
+              <ArrowRight size={32} color="#383533" weight="fill" />
+              @helplit_instagram
+            </h1>
+            <h1 className="flex flex-row gap-2">
+              <ArrowRight size={32} color="#383533" weight="fill" />
+              @helplit_facebook
+            </h1>
+            <h1 className="flex flex-row gap-2">
+              <ArrowRight size={32} color="#383533" weight="fill" />
+              @helplit_youtube
+            </h1>
+          </div>
+          <img
+            src="/fun/vida.png"
+            className="f-fit max-w-[300px] border-2 border-RUST rounded-md"
+            alt=""
+          />
+        </div>
       </Section>
     </div>
   );

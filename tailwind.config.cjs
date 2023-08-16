@@ -30,9 +30,13 @@ module.exports = {
         AETHER_BACKDROP: "#d240ef",
         NUDE: "#FCF9F7",
         CORAL: "#ff7f51",
+        RUST: "#994D0F",
         COAL: "#383533",
         WOOD: "#4C302E",
         OCEAN: "#10726d",
+        ROXINHO: "#D9B4E9",
+        ROXO: "#A752D8",
+        ROXAOZAO: "#611F84",
       },
       backgroundImage: {
         helplit_sm: 'url("/helplit_sm.png")',

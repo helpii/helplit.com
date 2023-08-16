@@ -76,7 +76,7 @@ const CarouselControls = (props: ControlsProps) => {
             className="float-right"
             size={36}
             color="#f27d54"
-            weight="duotone"
+            weight="fill"
           />
         </button>
       );
@@ -91,7 +91,7 @@ const CarouselControls = (props: ControlsProps) => {
           disabled={!props.canScrollNext}
           className="bg-NUDE pl-8 w-full select-none"
         >
-          <ArrowRight size={36} color="#f27d54" weight="duotone" />
+          <ArrowRight size={36} color="#f27d54" weight="fill" />
         </button>
       );
     default:

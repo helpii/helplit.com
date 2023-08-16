@@ -7,13 +7,21 @@ const images = [
 ];
 
 type Props = {
-  type: "banner" | "simple" | "carousel" | "instructions" | "default";
+  type:
+    | "hero"
+    | "simple"
+    | "carousel"
+    | "instructions"
+    | "stages"
+    | "cta"
+    | "footer"
+    | "default";
   children: JSX.Element;
 };
 
 export function Section({ type, children }: Props) {
   switch (type) {
-    case "banner":
+    case "hero":
       return (
         <div className="bg-gradient-to-r py-8 from-CORAL to-[#f38c64] flex flex-col md:flex-row items-center justify-between h-[100%] w-[100%] px-16 overflow-hidden">
           {children}
@@ -21,7 +29,7 @@ export function Section({ type, children }: Props) {
       );
     case "carousel":
       return (
-        <div className="py-8">
+        <div className="py-12">
           <LitCarousel loop>
             {images.map((src, i) => {
               return (
@@ -50,11 +58,25 @@ export function Section({ type, children }: Props) {
           {children}
         </div>
       );
-    default:
+    case "stages":
       return (
         <div className="flex flex-col items-center justify-between h-auto w-[100%] py-8">
           {children}
         </div>
       );
+    case "cta":
+      return (
+        <div className="flex flex-row items-center justify-center h-auto w-[100%] py-16">
+          {children}
+        </div>
+      );
+    case "footer":
+      return (
+        <div className="bg-CORAL flex flex-row items-center justify-center h-auto w-[100%] py-16">
+          {children}
+        </div>
+      );
+    default:
+      return <div>{children}</div>;
   }
 }
