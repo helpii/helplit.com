@@ -30,7 +30,7 @@ export const LitCarousel = ({ children, ...options }: CarouselProps) => {
   const canScrollPrev = !!emblaApi?.canScrollPrev();
 
   return (
-    <div className="flex flex-row justify-center">
+    <div className="flex flex-row justify-center select-none">
       <CarouselControls
         side="left"
         canScrollNext={canScrollNext}
