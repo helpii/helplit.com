@@ -35,7 +35,7 @@ export function Section({ type, children }: Props) {
                   {/* use object-cover + fill since we don't know the height and width of the parent */}
                   <img
                     src={src}
-                    className="object-fill w-full max-w-lg"
+                    className="px-2 object-fill w-full max-w-lg"
                     alt="alt"
                   />
                 </div>
