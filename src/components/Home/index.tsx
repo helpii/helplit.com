@@ -166,7 +166,7 @@ export function Home() {
         </div>
       </Section>
       <Section type="cta">
-        <div className="flex flex-col bg-ROXINHO p-16 rounded-xl justify-center items-center text-center gap-4 mx-16">
+        <div className="flex flex-col bg-ROXINHO py-8 px-4 sm:p-16 sm:rounded-xl justify-center items-center text-center gap-4 sm:mx-16">
           <h1 className="font-TITULO text-ROXAOZAO text-4xl">
             A Helplit tem uma causa:
           </h1>
