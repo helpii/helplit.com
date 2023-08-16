@@ -1,11 +1,9 @@
-import shapeshifter from "classnames";
 import { LitCarousel } from "../LitCarousel";
 
 const images = [
-  "https://placehold.co/480x300?font=roboto&text=Slide+1",
-  "https://placehold.co/480x300?font=roboto&text=Slide+2",
-  "https://placehold.co/480x300?font=roboto&text=Slide+3",
-  "https://placehold.co/480x300?font=roboto&text=Slide+4",
+  "https://placehold.co/600x800?font=roboto&text=Lit+1",
+  "https://placehold.co/600x800?font=roboto&text=Lit+2",
+  "https://placehold.co/600x800?font=roboto&text=Lit+3",
 ];
 
 type Props = {
@@ -23,7 +21,7 @@ export function Section({ type, children }: Props) {
       );
     case "carousel":
       return (
-        <div className="bg-slate-400">
+        <div className="py-16">
           <LitCarousel loop>
             {images.map((src, i) => {
               return (
@@ -35,7 +33,11 @@ export function Section({ type, children }: Props) {
                 //   - we want this slide to not be able to grow or shrink and take up 100% width of the viewport.
                 <div className="flex-[0_0_100%]" key={i}>
                   {/* use object-cover + fill since we don't know the height and width of the parent */}
-                  <img src={src} className="object-fill w-full" alt="alt" />
+                  <img
+                    src={src}
+                    className="object-fill w-full max-w-lg"
+                    alt="alt"
+                  />
                 </div>
               );
             })}

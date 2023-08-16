@@ -31,7 +31,7 @@ export const LitCarousel = ({ children, ...options }: CarouselProps) => {
   const canScrollPrev = !!emblaApi?.canScrollPrev();
 
   return (
-    <div className="flex flex-row">
+    <div className="flex flex-row justify-center">
       <CarouselControls
         side="left"
         canScrollNext={canScrollNext}
@@ -71,13 +71,14 @@ const CarouselControls = (props: ControlsProps) => {
             }
           }}
           disabled={!props.canScrollPrev}
-          className={shapeshifter({
-            "px-4 py-2": true,
-            "bg-NUDE": !props.canScrollNext,
-            "bg-[#FCF9F7]": props.canScrollNext,
-          })}
+          className="bg-NUDE px-8 w-full"
         >
-          <ArrowLeft size={32} color="#f27d54" weight="duotone" />
+          <ArrowLeft
+            className="float-right"
+            size={36}
+            color="#f27d54"
+            weight="duotone"
+          />
         </button>
       );
     case "right":
@@ -89,13 +90,9 @@ const CarouselControls = (props: ControlsProps) => {
             }
           }}
           disabled={!props.canScrollNext}
-          className={shapeshifter({
-            "px-4 py-2": true,
-            "bg-NUDE": !props.canScrollNext,
-            "bg-[#FCF9F7]": props.canScrollNext,
-          })}
+          className="bg-NUDE px-8 w-full"
         >
-          <ArrowRight size={48} color="#f27d54" weight="duotone" />
+          <ArrowRight size={36} color="#f27d54" weight="duotone" />
         </button>
       );
     default:
