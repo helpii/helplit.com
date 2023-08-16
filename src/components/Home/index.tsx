@@ -144,7 +144,7 @@ export function Home() {
       </Section>
       <Section type="default">
         <div className="flex flex-col xl:flex-row">
-          <div className="lg:mt-20 flex flex-col px-16 gap-8">
+          <div className="lg:mt-20 flex flex-col px-4 sm:px-16 gap-8">
             <h1 className="font-TITULO text-3xl">
               Mais do que um repositório de conteúdos{" "}
               <span className="font-bold">para te ajudar</span>, faça parte de
