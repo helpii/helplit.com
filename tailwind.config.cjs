@@ -12,6 +12,15 @@ module.exports = {
       DESTAQUE: ["Space Mono", "monospace"], //destaque
     },
     extend: {
+      animation: {
+        scroll: "scroll 80s linear infinite",
+      },
+      keyframes: {
+        scroll: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(calc(-250px * 9))" },
+        },
+      },
       colors: {
         NUMEN_ACCENT: "#2cb865",
         FIRE_BACKDROP: "#ff4444",

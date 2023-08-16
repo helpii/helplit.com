@@ -7,7 +7,7 @@ const images = [
 ];
 
 type Props = {
-  type: "banner" | "simple" | "carousel" | "instructions";
+  type: "banner" | "simple" | "carousel" | "instructions" | "default";
   children: JSX.Element;
 };
 
@@ -51,6 +51,10 @@ export function Section({ type, children }: Props) {
         </div>
       );
     default:
-      return null;
+      return (
+        <div className="flex flex-col items-center justify-between h-auto w-[100%] py-8">
+          {children}
+        </div>
+      );
   }
 }

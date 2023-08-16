@@ -3,6 +3,7 @@ import {
   LitCarousel,
   Section,
   InstructionsStep,
+  StagesSliders,
 } from "../../components";
 
 export function Home() {
@@ -135,6 +136,9 @@ export function Home() {
             </>
           </InstructionsStep>
         </>
+      </Section>
+      <Section type="default">
+        <StagesSliders />
       </Section>
     </div>
   );
