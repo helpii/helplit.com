@@ -3,7 +3,7 @@ import {
   LitCarousel,
   Section,
   InstructionsStep,
-  StagesSliders,
+  Stages,
 } from "../../components";
 
 import { ArrowRight } from "phosphor-react";
@@ -15,8 +15,7 @@ export function Home() {
       <Section type="hero">
         <>
           <div
-            className="flex flex-col text-COAL 
-            gap-2
+            className="flex flex-col text-COAL
             sm:mr-12"
           >
             <p
@@ -55,7 +54,7 @@ export function Home() {
           <InstructionsStep type="notice">
             <>
               <div
-                className="flex flex-row items-center w-full justify-start -z-0
+                className="flex flex-row items-center w-full justify-center justify-start -z-0
               sm:justify-center"
               >
                 <img
@@ -76,7 +75,7 @@ export function Home() {
               sm:text-2xl"
                 >
                   Oi, eu sou a <strong>Helpii</strong>!<br />
-                  Esse é o jeito Helplit:
+                  Na Helplit fazemos assim.
                 </p>
               </div>
             </>
@@ -140,12 +139,12 @@ export function Home() {
         </>
       </Section>
       <Section type="stages">
-        <StagesSliders />
+        <Stages />
       </Section>
       <Section type="default">
-        <div className="flex flex-col xl:flex-row">
+        <div className="my-20 flex flex-col sm:flex-row">
           <div className="lg:mt-20 flex flex-col px-4 sm:px-16 gap-8">
-            <h1 className="font-TITULO text-3xl">
+            <h1 className="md:mt-10 font-TITULO text-3xl">
               Mais do que um repositório de conteúdos{" "}
               <span className="font-bold">para te ajudar</span>, faça parte de
               uma comunidade de professores{" "}
@@ -157,12 +156,12 @@ export function Home() {
               do que com as lits, se inspire vendo como outros professores
               adaptaram elas para o conteúdo que precisaram ensinar.
             </p>
-            <button className="bg-CORAL flex flex-row my-4 items-center justify-center text-base md:text-lg w-full sm:max-w-[400px] py-2 px-2 text-white gap-4 rounded-full border-2 border-RUST">
+            <button className="font-TEXTO bg-CORAL flex flex-row my-4 items-center justify-center text-base md:text-lg w-full sm:max-w-[400px] py-2 px-2 text-white gap-4 rounded-full border-2 border-RUST">
               Junte-se a profes do Brasil todo{" "}
-              <ArrowRight size={36} color="#fff" weight="fill" />
+              <ArrowRight size={32} color="#fff" weight="fill" />
             </button>
           </div>
-          <img className="p-8 w-auto" src="/fun/blob.png" alt="" />
+          <img className="p-8 h-fit w-full" src="/fun/blob.png" alt="" />
         </div>
       </Section>
       <Section type="cta">

@@ -4,7 +4,7 @@ import { TopNavbar } from "./TopNavbar";
 import { LitCarousel } from "./LitCarousel";
 import { Section } from "./Section";
 import { InstructionsStep } from "./InstructionsStep";
-import { StagesSliders } from "./StagesSliders";
+import { Stages } from "./Stages";
 
 export {
   Container,
@@ -13,5 +13,5 @@ export {
   LitCarousel,
   Section,
   InstructionsStep,
-  StagesSliders,
+  Stages,
 };

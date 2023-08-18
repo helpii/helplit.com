@@ -1,4 +1,4 @@
-export function StagesSliders() {
+export function Stages() {
   return (
     <div className="w-full select-none flex flex-col font-TITULO text-xl my-10">
       <div className="flex w-full flex-row-reverse">
