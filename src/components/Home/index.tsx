@@ -50,11 +50,11 @@ export function Home() {
         <LitCarousel />
       </Section>
       <Section type="instructions">
-        <>
+        <section id="instructions">
           <InstructionsStep type="notice">
             <>
               <div
-                className="flex flex-row items-center w-full justify-center justify-start -z-0
+                className="flex flex-row items-center w-full justify-center -z-0
               sm:justify-center"
               >
                 <img
@@ -85,11 +85,11 @@ export function Home() {
             <>
               <img src="/instructions/step1.png" alt="" width="333.33" />
               <div
-                className="flex flex-col px-16
+                className="flex flex-col px-16 md:px-24
               text-right 
               sm:text-left"
               >
-                <p className="font-TITULO  text-OCEAN leading-none text-4xl">
+                <p className="font-TITULO text-OCEAN leading-none text-4xl">
                   Você começa <strong>pensando</strong>...
                 </p>
                 <p className="mt-4 leading-snug text-black-400 font-TEXTO font-extralight text-lg">
@@ -104,9 +104,10 @@ export function Home() {
           <InstructionsStep type="left">
             <>
               <img src="/instructions/step2.png" alt="" width="358.66" />
-              <div className="flex flex-col px-16 text-left">
+              <div className="flex flex-col px-16 text-left md:px-24">
                 <p className="font-TITULO text-4xl text-OCEAN leading-none">
-                  Você entra na <strong>Helplit</strong>...
+                  Você entra <br className="sm:hidden" /> na{" "}
+                  <strong>Helplit</strong>...
                 </p>
                 <p className="mt-4 leading-snug text-black-400 font-TEXTO font-extralight text-lg">
                   E se inspira nas diversas ideias de aulas produzidas por
@@ -121,12 +122,13 @@ export function Home() {
             <>
               <img src="/instructions/step3.png" alt="" width="333.33" />
               <div
-                className="flex flex-col px-16 
+                className="flex flex-col px-16 md:px-24
               text-right 
               sm:text-left"
               >
                 <p className="font-TITULO text-4xl text-OCEAN leading-none">
-                  Você sai com uma <strong>aula pronta</strong>!
+                  Você sai com <br className="sm:hidden" /> uma{" "}
+                  <strong>aula pronta</strong>!
                 </p>
                 <p className="mt-4 leading-snug text-black-400 font-TEXTO font-extralight text-lg">
                   Adaptando a lit para o conteúdo que você quer ensinar, você
@@ -136,13 +138,16 @@ export function Home() {
               </div>
             </>
           </InstructionsStep>
-        </>
+        </section>
       </Section>
       <Section type="stages">
         <Stages />
       </Section>
       <Section type="default">
-        <div className="my-20 flex flex-col sm:flex-row">
+        <div
+          id="comunidade"
+          className="my-8 sm:my-28 flex flex-col sm:flex-row"
+        >
           <div className="lg:mt-20 flex flex-col px-4 sm:px-16 gap-8">
             <h1 className="md:mt-10 font-TITULO text-3xl">
               Mais do que um repositório de conteúdos{" "}
@@ -165,11 +170,11 @@ export function Home() {
         </div>
       </Section>
       <Section type="cta">
-        <div className="flex flex-col bg-ROXINHO py-8 px-4 sm:p-16 sm:rounded-xl justify-center items-center text-center gap-4 sm:mx-16">
+        <div className="mx-4 flex flex-col bg-ROXINHO py-8 px-4 sm:p-16 rounded-xl justify-center items-center text-center gap-4 sm:mx-16">
           <h1 className="font-TITULO text-ROXAOZAO text-4xl">
             A Helplit tem uma causa:
           </h1>
-          <p className="font-TEXTO text-2xl font-extralight text-ROXAOZAO">
+          <p className="font-TEXTO text-xl sm:text-2xl font-extralight text-ROXAOZAO">
             Transformar a sala de aula em um palco de aprendizado, uma parceria
             entre professor e aluno.{" "}
             <span className="font-bold">Junte-se a nós!</span>

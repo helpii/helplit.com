@@ -6,38 +6,29 @@ export function TopNavbar() {
           <img src="hlt-navbar.svg" className="h-10" alt="Helplit Logo" />
         </a>
         <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-          <ul className="hidden md:flex font-medium flex-row md:gap-x-8 md:mt-0 md:border-0 md:bg-white ">
+          <ul className="hidden md:flex font-medium flex-row md:gap-x-12">
             <li>
               <a
-                href="#"
-                className="text-COAL hover:text-CORAL transition-colors ease-in-out"
-                aria-current="page"
-              >
-                Blog
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="text-COAL hover:text-CORAL transition-colors ease-in-out"
-              >
-                Preços
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="text-COAL hover:text-CORAL transition-colors ease-in-out"
-              >
-                Sobre nós
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
+                href="#instructions"
                 className="text-COAL hover:text-CORAL transition-colors ease-in-out"
               >
                 Como funciona
+              </a>
+            </li>
+            <li>
+              <a
+                href="#palcos"
+                className="text-COAL hover:text-CORAL transition-colors ease-in-out"
+              >
+                Palcos de Conhecimento
+              </a>
+            </li>
+            <li>
+              <a
+                href="#comunidade"
+                className="text-COAL hover:text-CORAL transition-colors ease-in-out"
+              >
+                Comunidade
               </a>
             </li>
           </ul>

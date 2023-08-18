@@ -1,6 +1,9 @@
 export function Stages() {
   return (
-    <div className="w-full select-none flex flex-col font-TITULO text-xl my-10">
+    <div
+      id="palcos"
+      className="w-full select-none flex flex-col font-TITULO text-xl my-10"
+    >
       <div className="flex w-full flex-row-reverse">
         <img
           className="relative top-2 left-2 max-w-[150px]"
