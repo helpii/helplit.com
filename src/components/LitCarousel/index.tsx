@@ -1,6 +1,6 @@
-import { ArrowLeft, ArrowRight } from "phosphor-react";
-import useEmblaCarousel, { EmblaOptionsType } from "embla-carousel-react";
-import { PropsWithChildren, useState, useEffect } from "react";
+import { ArrowLeft, ArrowRight } from '@phosphor-icons/react';
+import useEmblaCarousel, { EmblaOptionsType } from 'embla-carousel-react';
+import { PropsWithChildren, useState, useEffect } from 'react';
 
 // Define the props
 type CarouselProps = PropsWithChildren & EmblaOptionsType;
@@ -19,10 +19,10 @@ export const LitCarousel = ({ children, ...options }: CarouselProps) => {
       setSelectedIndex(index || 0);
     }
 
-    emblaApi?.on("select", selectHandler);
+    emblaApi?.on('select', selectHandler);
     // cleanup
     return () => {
-      emblaApi?.off("select", selectHandler);
+      emblaApi?.off('select', selectHandler);
     };
   }, [emblaApi]);
 
@@ -61,7 +61,7 @@ type ControlsProps = {
 };
 const CarouselControls = (props: ControlsProps) => {
   switch (props.side) {
-    case "left":
+    case 'left':
       return (
         <button
           onClick={() => {
@@ -76,11 +76,11 @@ const CarouselControls = (props: ControlsProps) => {
             className="float-right"
             size={36}
             color="#f27d54"
-            weight="fill"
+            weight="duotone"
           />
         </button>
       );
-    case "right":
+    case 'right':
       return (
         <button
           onClick={() => {
@@ -91,7 +91,7 @@ const CarouselControls = (props: ControlsProps) => {
           disabled={!props.canScrollNext}
           className="bg-NUDE pl-8 w-full select-none"
         >
-          <ArrowRight size={36} color="#f27d54" weight="fill" />
+          <ArrowRight size={36} color="#f27d54" weight="duotone" />
         </button>
       );
     default:

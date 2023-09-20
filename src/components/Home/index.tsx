@@ -4,13 +4,16 @@ import {
   Section,
   InstructionsStep,
   Stages,
-} from "../../components";
+} from '../../components';
 
-import { ArrowRight } from "phosphor-react";
+import { Manutencao } from '../Manutencao';
+
+import { ArrowRight } from '@phosphor-icons/react';
 
 export function Home() {
   return (
     <div className="bg-NUDE overflow-hidden">
+      <Manutencao />
       <TopNavbar />
       <Section type="hero">
         <>
@@ -36,10 +39,10 @@ export function Home() {
               text-justify mb-8
               sm:text-start md:mb-0"
             >
-              Sabemos que <span className="font-normal">você já é expert</span>{" "}
-              em preparar uma boa aula, por isso nossa missão é te entregar a{" "}
+              Sabemos que <span className="font-normal">você já é expert</span>{' '}
+              em preparar uma boa aula, por isso nossa missão é te entregar a{' '}
               <span className="font-normal">inspiração</span> que você já busca
-              para planejar aulas produtivas e divertidas, sem levar{" "}
+              para planejar aulas produtivas e divertidas, sem levar{' '}
               <span className="font-normal">o tempo que você leva hoje</span>.
             </p>
           </div>
@@ -106,7 +109,7 @@ export function Home() {
               <img src="/instructions/step2.png" alt="" width="358.66" />
               <div className="flex flex-col px-16 text-left md:px-24">
                 <p className="font-TITULO text-4xl text-OCEAN leading-none">
-                  Você entra <br className="sm:hidden" /> na{" "}
+                  Você entra <br className="sm:hidden" /> na{' '}
                   <strong>Helplit</strong>...
                 </p>
                 <p className="mt-4 leading-snug text-black-400 font-TEXTO font-extralight text-lg">
@@ -127,7 +130,7 @@ export function Home() {
               sm:text-left"
               >
                 <p className="font-TITULO text-4xl text-OCEAN leading-none">
-                  Você sai com <br className="sm:hidden" /> uma{" "}
+                  Você sai com <br className="sm:hidden" /> uma{' '}
                   <strong>aula pronta</strong>!
                 </p>
                 <p className="mt-4 leading-snug text-black-400 font-TEXTO font-extralight text-lg">
@@ -150,9 +153,9 @@ export function Home() {
         >
           <div className="lg:mt-20 flex flex-col px-4 sm:px-16 gap-8">
             <h1 className="md:mt-10 font-TITULO text-3xl">
-              Mais do que um repositório de conteúdos{" "}
+              Mais do que um repositório de conteúdos{' '}
               <span className="font-bold">para te ajudar</span>, faça parte de
-              uma comunidade de professores{" "}
+              uma comunidade de professores{' '}
               <span className="font-bold">dispostos a inspirar</span>.
             </h1>
             <p className="font-extralight text-lg">
@@ -162,7 +165,7 @@ export function Home() {
               adaptaram elas para o conteúdo que precisaram ensinar.
             </p>
             <button className="font-TEXTO bg-CORAL flex flex-row my-4 items-center justify-center text-base md:text-lg w-full sm:max-w-[400px] py-2 px-2 text-white gap-4 rounded-full border-2 border-RUST">
-              Junte-se a profes do Brasil todo{" "}
+              Junte-se a profes do Brasil todo{' '}
               <ArrowRight size={32} color="#fff" weight="fill" />
             </button>
           </div>
@@ -176,7 +179,7 @@ export function Home() {
           </h1>
           <p className="font-TEXTO text-xl sm:text-2xl font-extralight text-ROXAOZAO">
             Transformar a sala de aula em um palco de aprendizado, uma parceria
-            entre professor e aluno.{" "}
+            entre professor e aluno.{' '}
             <span className="font-bold">Junte-se a nós!</span>
           </p>
           <button className="px-4 bg-ROXO flex flex-row mt-4 items-center justify-center text-base md:text-lg max-w-[600px] w-auto py-2 text-white gap-4 rounded-full border-2 border-ROXAOZAO">
