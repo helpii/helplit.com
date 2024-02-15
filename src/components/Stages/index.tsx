@@ -13,29 +13,23 @@ export function Stages() {
       </div>
       <div className="bg-[#d3f2cb] h-auto py-2 m-auto overflow-hidden relative w-auto">
         <ul className="flex w-[calc(250px*9)] animate-scroll">
-          <li className="w-[250px]">Palco 1</li>
-          <li className="w-[250px]">Palco 2</li>
-          <li className="w-[250px]">Palco 3</li>
-          <li className="w-[250px]">Palco 1</li>
-          <li className="w-[250px]">Palco 2</li>
-          <li className="w-[250px]">Palco 3</li>
-          <li className="w-[250px]">Palco 1</li>
-          <li className="w-[250px]">Palco 2</li>
-          <li className="w-[250px]">Palco 3</li>
-          <li className="w-[250px]">Palco 1</li>
-          <li className="w-[250px]">Palco 2</li>
-          <li className="w-[250px]">Palco 3</li>
+          <li className="w-[500px]">Aprendizagem Dinâmica</li>
+          <li className="w-[500px]">Mistério e Investigação</li>
+          <li className="w-[500px]">Aprendizagem Dinâmica</li>
+          <li className="w-[500px]">Mistério e Investigação</li>
+          <li className="w-[500px]">Aprendizagem Dinâmica</li>
+          <li className="w-[500px]">Mistério e Investigação</li>
         </ul>
       </div>
       {/* GAMBI!! rotate-180 */}
       <div className="bg-[#d3f2cb] h-auto py-2 m-auto overflow-hidden relative w-auto rotate-180">
         <ul className="flex w-[calc(250px*6)] animate-scroll rotate-180">
-          <li className="w-[250px] rotate-180">Palco 4</li>
-          <li className="w-[250px] rotate-180">Palco 5</li>
-          <li className="w-[250px] rotate-180">Palco 6</li>
-          <li className="w-[250px] rotate-180">Palco 4</li>
-          <li className="w-[250px] rotate-180">Palco 5</li>
-          <li className="w-[250px] rotate-180">Palco 6</li>
+          <li className="w-[300px] rotate-180">Mercados de Aprendizagem</li>
+          <li className="w-[200px] rotate-180">Exploração</li>
+          <li className="w-[250px] rotate-180">Jornadas Místicas</li>
+          <li className="w-[300px] rotate-180">Mercados de Aprendizagem</li>
+          <li className="w-[200px] rotate-180">Exploração</li>
+          <li className="w-[250px] rotate-180">Jornadas Místicas</li>
         </ul>
       </div>
       <div

@@ -9,6 +9,7 @@ import {
 import { Manutencao } from '../Manutencao';
 
 import { ArrowRight } from '@phosphor-icons/react';
+import { YoutubeEmbed } from '../YoutubeEmbed';
 
 export function Home() {
   return (
@@ -23,7 +24,7 @@ export function Home() {
           >
             <p
               className="font-TITULO font-extralight 
-              text-2xl text-center
+              text-2xl text-center md:pt-16
               sm:text-6xl md:text-start"
             >
               Planeje aulas <span className="font-bold">divertidas</span> e
@@ -36,7 +37,7 @@ export function Home() {
             />
             <p
               className="font-TEXTO text-xl font-extralight 
-              text-justify mb-8
+              text-justify mb-8 md:pb-16 md:text-2xl
               sm:text-start md:mb-0"
             >
               Sabemos que <span className="font-normal">você já é expert</span>{' '}
@@ -46,7 +47,8 @@ export function Home() {
               <span className="font-normal">o tempo que você leva hoje</span>.
             </p>
           </div>
-          <img className="sm:py-8" src="profe.png" alt="" />
+          <YoutubeEmbed />
+          {/* <img className="sm:py-8" src="profe.png" alt="" /> */}
         </>
       </Section>
       <Section type="carousel">
@@ -152,24 +154,26 @@ export function Home() {
           className="my-8 sm:my-28 flex flex-col sm:flex-row"
         >
           <div className="lg:mt-20 flex flex-col px-4 sm:px-16 gap-8">
-            <h1 className="md:mt-10 font-TITULO text-3xl">
+            <h1 className="md:mt-10 font-TITULO text-6xl">
               Mais do que um repositório de conteúdos{' '}
               <span className="font-bold">para te ajudar</span>, faça parte de
               uma comunidade de professores{' '}
               <span className="font-bold">dispostos a inspirar</span>.
             </h1>
-            <p className="font-extralight text-lg">
+            <p className="font-extralight text-2xl">
               Queremos ser mais do que apenas um lugar para você usar de vez em
               quando, queremos te ajudar a se conectar de diversas formas. Mais
               do que com as lits, se inspire vendo como outros professores
               adaptaram elas para o conteúdo que precisaram ensinar.
             </p>
-            <button className="font-TEXTO bg-CORAL flex flex-row my-4 items-center justify-center text-base md:text-lg w-full sm:max-w-[400px] py-2 px-2 text-white gap-4 rounded-full border-2 border-RUST">
+            <a
+              className="font-TEXTO bg-CORAL flex flex-row my-4 items-center justify-center text-base md:text-lg w-full sm:max-w-[400px] py-2 px-2 text-white gap-4 rounded-full border-2 border-RUST"
+              href="mailto:helplitapp@gmail.com?subject=Oi Helplit! Quero saber mais.&body=Escreva aqui o que quiser, e te responderemos o mais rápido possível!"
+            >
               Junte-se a profes do Brasil todo{' '}
               <ArrowRight size={32} color="#fff" weight="fill" />
-            </button>
+            </a>
           </div>
-          <img className="p-8 h-fit w-full" src="/fun/blob.png" alt="" />
         </div>
       </Section>
       <Section type="cta">
@@ -182,21 +186,28 @@ export function Home() {
             entre professor e aluno.{' '}
             <span className="font-bold">Junte-se a nós!</span>
           </p>
-          <button className="px-4 bg-ROXO flex flex-row mt-4 items-center justify-center text-base md:text-lg max-w-[600px] w-auto py-2 text-white gap-4 rounded-full border-2 border-ROXAOZAO">
+          <a
+            className="px-4 bg-ROXO flex flex-row mt-4 items-center justify-center text-base md:text-lg max-w-[600px] w-auto py-2 text-white gap-4 rounded-full border-2 border-ROXAOZAO"
+            href="mailto:helplitapp@gmail.com?subject=Oi Helplit! Quero saber mais.&body=Escreva aqui o que quiser, e te responderemos o mais rápido possível!"
+          >
             Comece transformando sua sala de aula!
-          </button>
+          </a>
         </div>
       </Section>
       <Section type="footer">
-        <div className="flex flex-col md:flex-row gap-x-32 font-TEXTO text-lg justify-between">
-          <div className="flex flex-col mr-8 gap-6">
+        <div className="flex flex-col md:flex-row font-TEXTO text-lg justify-between">
+          <div className="flex flex-col gap-6 justify-center">
             <img src="hlt_white.png" className="h-fit max-w-[200px]" alt="" />
+            {/* 
             <h1>Blog</h1>
             <h1>Preços</h1>
             <h1>Sobre nós</h1>
             <h1>Como funciona</h1>
+            */}
           </div>
-          <div className="flex flex-col mr-16 mb-16 gap-6">
+
+          <div className="flex flex-col mb-16 gap-6">
+            {/* 
             <img
               src="hlt_white.png"
               className="h-fit max-w-[200px] opacity-0"
@@ -214,12 +225,15 @@ export function Home() {
               <ArrowRight size={32} color="#383533" weight="fill" />
               @helplit_youtube
             </h1>
+            */}
           </div>
+          {/*
           <img
             src="/fun/vida.png"
             className="f-fit max-w-[300px] border-2 border-RUST rounded-md"
             alt=""
           />
+          */}
         </div>
       </Section>
     </div>

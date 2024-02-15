@@ -5,6 +5,7 @@ export function TopNavbar() {
         <a href="https://helplit.com.br/" className="flex items-center">
           <img src="hlt-navbar.svg" className="h-10" alt="Helplit Logo" />
         </a>
+        {/* 
         <div className="hidden w-full md:block md:w-auto" id="navbar-default">
           <ul className="hidden md:flex font-medium flex-row md:gap-x-12">
             <li>
@@ -33,7 +34,10 @@ export function TopNavbar() {
             </li>
           </ul>
         </div>
+        */}
+
         <div className="flex flex-row gap-x-8 items-center">
+          {/*
           <a
             href="#"
             className="hidden md:block text-COAL hover:text-CORAL transition-colors ease-in-out"
@@ -43,6 +47,7 @@ export function TopNavbar() {
           <button className="mr-2 md:mr-0 text-CORAL border-2 border-CORAL py-1 px-4 rounded-full hover:bg-CORAL hover:text-white transition-colors ease-in-out">
             Comece a planejar
           </button>
+          */}
         </div>
       </div>
     </nav>

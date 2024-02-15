@@ -1,33 +1,33 @@
-import { LitCarousel } from "../LitCarousel";
+import { LitCarousel } from '../LitCarousel';
 
 const images = [
-  "https://placehold.co/600x800?font=roboto&text=Lit+1",
-  "https://placehold.co/600x800?font=roboto&text=Lit+2",
-  "https://placehold.co/600x800?font=roboto&text=Lit+3",
+  'https://firebasestorage.googleapis.com/v0/b/public-7a7db.appspot.com/o/hlt-onepage%2FLIT_EXAMPLES%2Fdia_h_desapareceu.png?alt=media&token=b8e6bf91-f545-42fd-a602-375fdd15c425',
+  'https://firebasestorage.googleapis.com/v0/b/public-7a7db.appspot.com/o/hlt-onepage%2FLIT_EXAMPLES%2Fmagica_culturas_brasileiras.png?alt=media&token=d4c0b3a0-0c87-4761-9592-4980608c9ef7',
+  'https://firebasestorage.googleapis.com/v0/b/public-7a7db.appspot.com/o/hlt-onepage%2FLIT_EXAMPLES%2Fmercadinho_da_semana.png?alt=media&token=4366fddc-1c63-4976-8a4a-73f18e71515a',
 ];
 
 type Props = {
   type:
-    | "hero"
-    | "simple"
-    | "carousel"
-    | "instructions"
-    | "stages"
-    | "cta"
-    | "footer"
-    | "default";
+    | 'hero'
+    | 'simple'
+    | 'carousel'
+    | 'instructions'
+    | 'stages'
+    | 'cta'
+    | 'footer'
+    | 'default';
   children: JSX.Element;
 };
 
 export function Section({ type, children }: Props) {
   switch (type) {
-    case "hero":
+    case 'hero':
       return (
         <div className="bg-gradient-to-r py-8 from-CORAL to-[#f38c64] flex flex-col md:flex-row items-center justify-between h-[100%] w-[100%] px-16 overflow-hidden">
           {children}
         </div>
       );
-    case "carousel":
+    case 'carousel':
       return (
         <div className="py-12">
           <LitCarousel loop>
@@ -52,25 +52,25 @@ export function Section({ type, children }: Props) {
           </LitCarousel>
         </div>
       );
-    case "instructions":
+    case 'instructions':
       return (
         <div className="bg-gradient-to-r from-[#f4df64] to-[#edd757] border-b-[12px] border-t-[12px] border-[#f4e588] rounded-2xl  flex flex-col items-center justify-between pb-12 h-auto w-[100%]">
           {children}
         </div>
       );
-    case "stages":
+    case 'stages':
       return (
         <div className="flex flex-col items-center justify-between h-auto w-[100%] py-8">
           {children}
         </div>
       );
-    case "cta":
+    case 'cta':
       return (
         <div className="flex flex-row items-center justify-center h-auto w-[100%] py-16">
           {children}
         </div>
       );
-    case "footer":
+    case 'footer':
       return (
         <div className="bg-CORAL flex flex-row items-center justify-center h-auto w-[100%] py-16">
           {children}
