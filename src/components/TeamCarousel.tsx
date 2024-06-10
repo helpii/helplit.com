@@ -108,13 +108,13 @@ export function TeamCarousel() {
                     src={member.imageUrl}
                     alt={member.name}
                     className={shapeshifter(
-                      'w-32 h-32 md:w-48 md:h-48 mx-auto rounded-full border-white',
+                      'w-32 h-32 md:w-48 md:h-48 mx-auto rounded-full border-4 border-white',
                       {
-                        'border-solid border-[3px]':
+                        'border-dashed':
                           member.name === 'Eduardo Viva' ||
                           member.name === 'Suzana Linhares',
 
-                        'border-double border-8':
+                        'border-solid':
                           member.name === 'Tamara Bitencourt' ||
                           member.name === 'Rosangela Maraschin' ||
                           member.name === 'Juliana Manara' ||
