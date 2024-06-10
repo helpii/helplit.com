@@ -82,7 +82,7 @@ export function TeamCarousel() {
       <div className="relative flex items-center justify-center">
         <button
           onClick={prevSlide}
-          className="select-none flex items-center justify-center"
+          className="select-none flex items-center justify-center flex-shrink"
         >
           <ArrowLeft
             className="float-right"
@@ -91,7 +91,7 @@ export function TeamCarousel() {
             weight="duotone"
           />
         </button>
-        <div className="overflow-hidden w-full">
+        <div className="overflow-hidden w-full flex-grow">
           <div
             className="flex transition-transform duration-300 ease-in-out"
             style={{ transform: `translateX(-${currentIndex * 100}%)` }}
@@ -99,7 +99,7 @@ export function TeamCarousel() {
             {teamData.map((member) => (
               <a
                 key={member.id}
-                className="min-w-full flex-shrink-0"
+                className="min-w-full flex-grow"
                 target="_blank"
                 href={member.socialUrl}
               >
@@ -108,7 +108,7 @@ export function TeamCarousel() {
                     src={member.imageUrl}
                     alt={member.name}
                     className={shapeshifter(
-                      'w-48 h-48 mx-auto rounded-full border-white',
+                      'w-32 h-32 md:w-48 md:h-48 mx-auto rounded-full border-white',
                       {
                         'border-solid border-[3px]':
                           member.name === 'Eduardo Viva' ||
@@ -135,7 +135,7 @@ export function TeamCarousel() {
         </div>
         <button
           onClick={nextSlide}
-          className="select-none flex items-center justify-center"
+          className="select-none flex items-center justify-center flex-shrink"
         >
           <ArrowRight
             className="float-right"
