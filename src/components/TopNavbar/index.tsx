@@ -43,11 +43,15 @@ export function TopNavbar() {
             className="hidden md:block text-COAL hover:text-CORAL transition-colors ease-in-out"
           >
             Entrar
+      </a>
+      */}
+          <a
+            target="_blank"
+            href="https://helplit-comunidade.framer.website/"
+            className="mr-2 md:mr-0 text-ROXO border-2 border-ROXO py-1 px-4 rounded-full hover:bg-ROXO hover:text-white transition-colors ease-in-out"
+          >
+            Comece agora! 💡
           </a>
-          <button className="mr-2 md:mr-0 text-CORAL border-2 border-CORAL py-1 px-4 rounded-full hover:bg-CORAL hover:text-white transition-colors ease-in-out">
-            Comece a planejar
-          </button>
-          */}
         </div>
       </div>
     </nav>

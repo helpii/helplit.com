@@ -10,6 +10,7 @@ import { Manutencao } from '../Manutencao';
 
 import { ArrowRight } from '@phosphor-icons/react';
 import { YoutubeEmbed } from '../YoutubeEmbed';
+import TeamCarousel from '../TeamCarousel';
 
 export function Home() {
   return (
@@ -167,14 +168,26 @@ export function Home() {
               adaptaram elas para o conteúdo que precisaram ensinar.
             </p>
             <a
-              className="font-TEXTO bg-CORAL flex flex-row my-4 items-center justify-center text-base md:text-lg w-full sm:max-w-[400px] py-2 px-2 text-white gap-4 rounded-full border-2 border-RUST"
-              href="mailto:helplitapp@gmail.com?subject=Oi Helplit! Quero saber mais.&body=Escreva aqui o que quiser, e te responderemos o mais rápido possível!"
+              className="font-TEXTO bg-ROXO flex flex-row my-4 items-center justify-center text-base md:text-lg w-full sm:max-w-[400px] py-2 px-2 text-white gap-4 rounded-full border-2 border-ROXAOZAO"
+              target="_blank"
+              href="https://helplit-comunidade.framer.website/"
             >
               Junte-se a profes do Brasil todo{' '}
               <ArrowRight size={32} color="#fff" weight="fill" />
             </a>
           </div>
         </div>
+      </Section>
+      <Section type="team">
+        <>
+          <div className="flex flex-col w-full justify-center items-center text-white select-none">
+            <p className="text-2xl font-TITULO">conheça nosso time</p>
+            <p className="underline text-base font-DESTAQUE">
+              e clique para saber mais.
+            </p>
+          </div>
+          <TeamCarousel />
+        </>
       </Section>
       <Section type="cta">
         <div className="mx-4 flex flex-col bg-ROXINHO py-8 px-4 sm:p-16 rounded-xl justify-center items-center text-center gap-4 sm:mx-16">
@@ -188,7 +201,8 @@ export function Home() {
           </p>
           <a
             className="px-4 bg-ROXO flex flex-row mt-4 items-center justify-center text-base md:text-lg max-w-[600px] w-auto py-2 text-white gap-4 rounded-full border-2 border-ROXAOZAO"
-            href="mailto:helplitapp@gmail.com?subject=Oi Helplit! Quero saber mais.&body=Escreva aqui o que quiser, e te responderemos o mais rápido possível!"
+            target="_blank"
+            href="https://helplit-comunidade.framer.website/"
           >
             Comece transformando sua sala de aula!
           </a>

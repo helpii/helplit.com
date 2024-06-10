@@ -14,6 +14,7 @@ type Props = {
     | 'instructions'
     | 'stages'
     | 'cta'
+    | 'team'
     | 'footer'
     | 'default';
   children: JSX.Element;
@@ -67,6 +68,13 @@ export function Section({ type, children }: Props) {
     case 'cta':
       return (
         <div className="flex flex-row items-center justify-center h-auto w-[100%] py-16">
+          {children}
+        </div>
+      );
+
+    case 'team':
+      return (
+        <div className="bg-gradient-to-r py-8 from-CORAL to-[#f38c64] flex flex-col items-center justify-between h-[100%] w-[100%] px-16 overflow-hidden">
           {children}
         </div>
       );
