@@ -48,23 +48,17 @@ const Footer = () => {
               <div className="flex flex-col justify-center items-center md:items-start gap-2 mb-10 text-sm">
                 {config.mailgun.supportEmail && (
                   <a
-                    href={`mailto:${config.mailgun.supportEmail}`}
+                    href="mailto:helplitapp@gmail.com"
                     target="_blank"
                     className="link link-hover"
                     aria-label="Contact Support"
                   >
-                    Support
+                    Email
                   </a>
                 )}
                 <Link href="/#pricing" className="link link-hover">
-                  Pricing
+                  Plano
                 </Link>
-                <Link href="/blog" className="link link-hover">
-                  Blog
-                </Link>
-                <a href="/#" target="_blank" className="link link-hover">
-                  Affiliates
-                </a>
               </div>
             </div>
 
@@ -75,10 +69,10 @@ const Footer = () => {
 
               <div className="flex flex-col justify-center items-center md:items-start gap-2 mb-10 text-sm">
                 <Link href="/tos" className="link link-hover">
-                  Terms of services
+                  Termos de Serviço
                 </Link>
                 <Link href="/privacy-policy" className="link link-hover">
-                  Privacy policy
+                  Política de Privacidade
                 </Link>
               </div>
             </div>

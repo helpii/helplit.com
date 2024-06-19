@@ -1,6 +1,7 @@
 import TestimonialsAvatars from './TestimonialsAvatars';
 import config from '@/config';
 import { YoutubeEmbed } from './custom/YoutubeEmbed';
+import Link from 'next/link';
 
 const Hero = () => {
   return (
@@ -14,13 +15,12 @@ const Hero = () => {
           te entregar a inspiração que você já busca para planejar aulas
           produtivas e divertidas, sem levar o tempo que você leva hoje.
         </p>
-        <a
-          className="btn btn-primary btn-wide"
-          href="https://helplit-comunidade.framer.website/"
-          target="_blank"
+        <Link
+          className="btn btn-primary btn-wide bg-gradient-to-br from-primary to-orange-400 border-none"
+          href="/#pricing"
         >
           Seja {config.appName}!
-        </a>
+        </Link>
 
         <TestimonialsAvatars priority={true} />
       </div>

@@ -10,7 +10,7 @@ export function Instructions() {
               sm:justify-center"
           >
             <img
-              className="absolute opacity-80 -z-10 
+              className="absolute opacity-60 -z-10 
                 left-[2%] rotate-[70deg]
                 sm:left-[30%]"
               src="/doodle.gif"

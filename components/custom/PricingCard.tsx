@@ -5,7 +5,7 @@ export const PricingCard = () => {
     <section className="bg-neutral overflow-hidden" id="pricing">
       <a
         className="pt-16 pb-24 px-8 max-w-5xl mx-auto flex flex-col items-center group"
-        href="about:blank"
+        href="https://buy.stripe.com/9AQ2b32U25PIfxmbII"
         target="_blank"
       >
         <div className="flex flex-col text-center w-full mb-10">
