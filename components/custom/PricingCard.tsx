@@ -30,15 +30,17 @@ export const PricingCard = () => {
             <p className="text-white opacity-85 font-space_mono">
               aos palcos de apredizagem!
             </p>
-            <p className="mt-4 line-through opacity-65">16/mês</p>
+            <p className="mt-4 opacity-65 font-space_mono mb-1 text-sm">
+              de 19,50 por
+            </p>
             <div className="flex flex-row justify-center items-center">
               <div className="text-2xl flex flex-col justify-center items-center">
                 <div className="flex flex-row items-center">
-                  <p className="text-base mr-2 font-bold">R$</p>
-                  8/mês
+                  <p className="text-base mr-2 font-bold">R$</p>9
+                  <span className="font-jubilat">,</span>50/mês
                 </div>
                 <span className="text-base font-jubilat text-center text-amber-100">
-                  PREÇO DE PRÉ-LANÇAMENTO
+                  PROMO DE PRÉ-LANÇAMENTO
                 </span>
               </div>
             </div>
