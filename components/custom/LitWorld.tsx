@@ -31,12 +31,10 @@ export const LitWorld = () => {
           <span className="bg-neutral border border-transparent border-b-accent px-1 mx-1 leading-relaxed whitespace-nowrap text-accent">
             aulas inspiradoras
           </span>
-          e fáceis de replicar! As lits são pensadas para o Ensino Fundamental
-          I, onde há mais{' '}
+          e fáceis de replicar! As lits são pensadas para os Anos Iniciais,
           <span className="bg-neutral border border-transparent border-b-accent px-1 mx-1 leading-relaxed whitespace-nowrap text-accent">
-            espaço para a criatividade
-          </span>{' '}
-          na Educação Básica.
+            alicerce da jornada escolar de sucesso!
+          </span>
         </p>
       </div>
       <LitCarousel loop>

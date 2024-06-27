@@ -18,8 +18,9 @@ const faqList: FAQItemProps[] = [
       <div className="space-y-2 leading-relaxed">
         Não! 😸✨
         <br />
-        Aqui é tudo pensado para acender lâmpadas sobre as cabeças dos alunos e
-        gerar mais interesse da turma através de aulas encantadoras.
+        Aqui é tudo pensado para acender lâmpadas sobre as cabeças dos
+        estudantes e gerar mais interesse da turma através de aulas
+        encantadoras.
       </div>
     ),
   },

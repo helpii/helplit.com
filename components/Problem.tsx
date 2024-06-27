@@ -64,13 +64,13 @@ const Problem = () => {
           <Step
             emoji="📚😵‍💫"
             text="Longos planejamentos"
-            desc="Afinal, onde foi parar o tempo para cuidar de mim e da casa?"
+            desc="Muitas tarefas fora da sala de aula / Excesso de burocracias / Sobrecarga de tarefas."
           />
           <Arrow extraStyle="max-md:-scale-x-100 md:-rotate-90" />
           <Step
             emoji="🐌🤨"
             text="Falta de reação em aula"
-            desc="Será que foram todos para o metaverso e ninguém me avisou?"
+            desc="Será que os alunos foram para o metaverso e ninguém me avisou?"
           />
           <Arrow extraStyle="md:-scale-x-100 md:-rotate-90" />
           <Step
