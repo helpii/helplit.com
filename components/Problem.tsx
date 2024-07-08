@@ -64,7 +64,7 @@ const Problem = () => {
           <Step
             emoji="📚😵‍💫"
             text="Longos planejamentos"
-            desc="Muitas tarefas fora da sala de aula / Excesso de burocracias / Sobrecarga de tarefas."
+            desc="Muitas tarefas fora da sala de aula, sobrecarga e excesso de burocracias."
           />
           <Arrow extraStyle="max-md:-scale-x-100 md:-rotate-90" />
           <Step
