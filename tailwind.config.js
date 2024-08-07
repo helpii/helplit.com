@@ -18,6 +18,8 @@ module.exports = {
           'linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82)',
         gradient_helplit:
           'linear-gradient(60deg, #ff7f52, #f37055, #ef4e7b, #f37055, #ff7f52)',
+        gradient_helplit_simple:
+          'linear-gradient(60deg, #ff7f52, #f37055, #ff7f52)',
       },
       animation: {
         opacity: 'opacity 0.25s ease-in-out',

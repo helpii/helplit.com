@@ -2,7 +2,7 @@
 import { InstructionsStep } from './InstructionStep';
 export function Instructions() {
   return (
-    <div className="bg-base-200 flex flex-col items-center justify-between pb-12 h-auto w-[100%] font-jubilat">
+    <div className="bg-base-200 flex flex-col items-center justify-between pb-12 h-auto w-[100%] font-jubilat select-none pointer-events-none">
       <InstructionsStep type="notice">
         <>
           <div
