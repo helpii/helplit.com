@@ -25,7 +25,7 @@ const teamData: TeamMember[] = [
     name: 'Rosangela Maraschin',
     role: 'A Economista',
     imageUrl:
-      'https://media.licdn.com/dms/image/D4D03AQE3205JT3Fi1g/profile-displayphoto-shrink_400_400/0/1663107401778?e=1723680000&v=beta&t=P8Kwsoqi8UVBAWcCYP0ndcdded5uvuXD4MeNwObt-3Q',
+      'https://64.media.tumblr.com/3dff2336339478042b1b4be4c9e80f67/258679f3e112139a-f4/s400x600/2071cbeefac883760cc3690a5a49c3407d7f7261.jpg',
     socialUrl: 'https://www.linkedin.com/in/rosangela-viegas-maraschin/',
   },
   {
@@ -33,7 +33,7 @@ const teamData: TeamMember[] = [
     name: 'Juliana Manara',
     role: 'A Estrategista',
     imageUrl:
-      'https://media.licdn.com/dms/image/D4D03AQF9tNsdRcP9Aw/profile-displayphoto-shrink_400_400/0/1706010501866?e=1723680000&v=beta&t=yrLFABbXS75tKsw_Vmq1kizjNRyAPuIA05OdNe-ItZc',
+      'https://64.media.tumblr.com/bde28b7acda919d8a669a74b41be9af3/258679f3e112139a-51/s400x600/fbcfb5a38f0e096a3a78d85f4019ed9c66ac0bc3.jpg',
     socialUrl: 'https://www.linkedin.com/in/julianamanara/',
   },
   {
@@ -41,7 +41,7 @@ const teamData: TeamMember[] = [
     name: 'João M. Fantin',
     role: 'O Engenheiro',
     imageUrl:
-      'https://media.licdn.com/dms/image/D4D03AQGAK71ByDXptA/profile-displayphoto-shrink_400_400/0/1713759406637?e=1723680000&v=beta&t=nYp0wUoa5CSOP0bL_aJgMHTxHrsivHks5eqSPlLVD3w',
+      'https://64.media.tumblr.com/1eef558a50e094b760bfeaea8042bbb5/258679f3e112139a-6b/s400x600/645a978af93f58242872755903974c346d70a64d.jpg',
     socialUrl: 'https://www.linkedin.com/in/jmfantin/',
   },
   {
@@ -49,7 +49,7 @@ const teamData: TeamMember[] = [
     name: 'Eduardo Viva',
     role: 'O Designer',
     imageUrl:
-      'https://media.licdn.com/dms/image/D4D03AQHP8aeyfU2MaQ/profile-displayphoto-shrink_400_400/0/1683720920139?e=1723680000&v=beta&t=etjyKPYYu4RZ4THZAYg7jqOXOp7WQBIVmPD2ptdh3g4',
+      'https://64.media.tumblr.com/47268850e855d3c727889bb2b7f6f2b0/258679f3e112139a-72/s400x600/f8a01743b129932152434350261872ebdc109038.jpg',
     socialUrl: 'https://www.linkedin.com/in/edu-viva/',
   },
   {
@@ -57,7 +57,7 @@ const teamData: TeamMember[] = [
     name: 'Suzana Linhares',
     role: 'A Analista',
     imageUrl:
-      'https://media.licdn.com/dms/image/C4D03AQFyhkH19UkAVw/profile-displayphoto-shrink_400_400/0/1661273352414?e=1723680000&v=beta&t=2gDpGwDDbEln8K9h0EH0gOC79u9M3DIwWMRKYgI5_2w',
+      'https://64.media.tumblr.com/0fb79569ed6cf54a2a4a0682fa838c0f/258679f3e112139a-7e/s400x600/578723c646b967a0c492c59e43c05860e3e4197c.jpg',
     socialUrl: 'https://www.linkedin.com/in/suzanachaveslinhares/',
   },
   // Adicione mais membros da equipe conforme necessário
