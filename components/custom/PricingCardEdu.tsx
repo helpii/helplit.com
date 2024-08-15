@@ -36,15 +36,15 @@ export const PricingCardEdu = () => {
           <p className="text-white text-sm opacity-65">
             Experimente por 14 dias grátis.
           </p>
-          <p className="mt-4 opacity-65 font-jubilat text-xs">de 295 por</p>
+          <p className="mt-4 opacity-65 font-jubilat text-sm">de 27 por</p>
           <div className="flex flex-row justify-center items-center">
             <div className="text-4xl flex flex-col justify-center items-center">
               <div className="flex flex-row items-center font-bold">
                 <p className="text-xs mr-2 font-bold">R$</p>
-                <p>195/ano</p>
+                <p>17/mês</p>
               </div>
-              <span className="text-xs font-jubilat text-center text-amber-100 font-bold">
-                PROMO DE PRÉ-LANÇAMENTO
+              <span className="text-sm font-jubilat text-center text-amber-100 font-bold">
+                PROMO DE LANÇAMENTO
               </span>
               <div className="text-xs opacity-75 my-4 font-space_mono">
                 <p>— Receba as Lits no seu WhatsApp;</p>
